@@ -9,7 +9,7 @@ import requests
 
 import secrets as secrets # file that contains your OAuth credentials
 
-CACHE_FILENAME = "/Users/sonnykim/Desktop/HW6/W21_HW6_Twitter/twitter_cache.json"
+CACHE_FILENAME = "twitter_cache.json"
 CACHE_DICT = {}
 
 client_key = secrets.TWITTER_API_KEY
